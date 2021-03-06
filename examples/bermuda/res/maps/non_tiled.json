@@ -1,0 +1,59 @@
+{
+    "header": {
+        "name": "non_tiled",
+        "format_version": "1.0.0"
+    },
+    
+    "options": {
+        "width": 1920,
+        "height": 1440,
+        "tile_width": 1920,
+        "tile_height": 1440,
+        "chunk_width_t": 1,
+        "chunk_height_t": 1,
+        "draw_distance_c": 1
+    },
+    
+    "layers": [
+        {
+            "id": 0,
+            "objects": [
+                {
+                    "id": 0,
+                    "image": "../res/images/the_grid.png",
+                    "tileset": false,
+                    "auto_split": false,
+                    "scale_mul": 1.0,
+                    "rotation_deg": 0.0,
+                    "position": { "x": 0, "y": 0 },
+                    "tiledata": []
+                },
+                {
+                    "id": 1,
+                    "image": "../res/images/the_grid-v2.png",
+                    "tileset": false,
+                    "auto_split": false,
+                    "scale_mul": 1.0,
+                    "rotation_deg": 0.0,
+                    "position": { "x": 480, "y": 720 },
+                    "tiledata": []
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "objects": [
+                {
+                    "id": 2,
+                    "image": "../res/images/blue_box.png",
+                    "tileset": false,
+                    "auto_split": false,
+                    "scale_mul": 0.85,
+                    "rotation_deg": -25.0,
+                    "position": { "x": 224, "y": 224 },
+                    "tiledata": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+*.a
+*.bak
+*.manifest
+*.o
+.idea/
+**/.vs/
+**/bin/
+**/**/Debug/
+**/**/Release/
